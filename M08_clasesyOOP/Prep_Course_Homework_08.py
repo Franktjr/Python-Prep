@@ -55,7 +55,21 @@
 # Factorial<br>
 
 # In[33]:
+import sys
+sys.path.append("C:\\Users\\luisl\\Documents\\PROCESOS\\SoyHenrry\\material\\Python-Prep\\M07_funciones\\Prep_Course_Homework_07.py")
+# import Prep_Course_Homework_07
+from Prep_Course_Homework_07 import primo
 
+
+class FUNCIONES_PRESTADAS:
+    def verificar_primo(numero):
+        resultado = primo(numero)
+        print('resultado:',resultado)
+    
+
+prueba = FUNCIONES_PRESTADAS()
+
+prueba.verificar_primo(5)
 
 
 
